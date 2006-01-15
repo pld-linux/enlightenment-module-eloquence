@@ -4,12 +4,12 @@
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: eloquence
 Name:		enlightenment-module-%{_module_name}
-Version:	0.4.3
+Version:	0.4.6
 Release:	1
 License:	BSD-like
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
-# Source0-md5:	5fd9cf8e7b4fb5f9c1b6fef915da0ef7
+# Source0-md5:	91ef0755bd62bac382d650a5ee5a5d34
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -36,6 +36,7 @@ sed -e 's|datadir=.*|datadir="`enlightenment-config --module-dir`/${PACKAGE}"|' 
     -e '/PACKAGE_DATA_DIR/s|"[^"]*"|"`enlightenment-config --module-dir`/${PACKAGE}"|' \
     -e '/PACKAGE_LIB_DIR/s|"[^"]*"|"`enlightenment-config --module-dir`"|' \
     -e 's/$AMAROK/have amarok/' \
+    -e '/dlopen/s/^#//' \
     -i configure.in
 
 %build
