@@ -4,12 +4,12 @@
 Summary:	Enlightenment DR17 module: %{_module_name}
 Summary(pl):	Modu³ Enlightenmenta DR17: eloquence
 Name:		enlightenment-module-%{_module_name}
-Version:	0.4.6
+Version:	0.5.0.1
 Release:	1
 License:	BSD-like
 Group:		X11/Window Managers/Tools
 Source0:	http://www.get-e.org/Resources/Modules/_files/%{_module_name}-%{version}.tar.gz
-# Source0-md5:	91ef0755bd62bac382d650a5ee5a5d34
+# Source0-md5:	17463227247e05aa2ee15d3963aa34dc
 URL:		http://www.get-e.org/Resources/Modules/
 BuildRequires:	autoconf
 BuildRequires:	automake
