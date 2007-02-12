@@ -2,7 +2,7 @@
 %define		_module_name	eloquence
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu≥ Enlightenmenta DR17: eloquence
+Summary(pl.UTF-8):   Modu≈Ç Enlightenmenta DR17: eloquence
 Name:		enlightenment-module-%{_module_name}
 Version:	0.5.0.1
 Release:	1
@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Enlightenment DR17 module: Displays the current playing title using
 using XMMS, BMP or Amarok on screen.
 
-%description -l pl
-Modu≥ Enlightenmenta DR17 wy∂wietlaj±cy na ekranie tytu≥ utworu
-aktualnie odtwarzanego przy uøyciu XMMS-a, BMP lub Amaroka.
+%description -l pl.UTF-8
+Modu≈Ç Enlightenmenta DR17 wy≈õwietlajƒÖcy na ekranie tytu≈Ç utworu
+aktualnie odtwarzanego przy u≈ºyciu XMMS-a, BMP lub Amaroka.
 
 %prep
 %setup -q -n %{_module_name}-%{version}
