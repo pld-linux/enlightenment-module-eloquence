@@ -2,7 +2,7 @@
 %define		_module_name	eloquence
 
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: eloquence
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: eloquence
 Name:		enlightenment-module-%{_module_name}
 Version:	0.5.0.1
 Release:	1
