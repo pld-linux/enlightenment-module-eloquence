@@ -15,11 +15,11 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bmp-devel
 BuildRequires:	edje
-BuildRequires:	enlightenmentDR17-devel
+BuildRequires:	enlightenment-devel
 BuildRequires:	libtool
 BuildRequires:	sed >= 4.0
 BuildRequires:	xmms-devel
-Requires:	enlightenmentDR17
+Requires:	enlightenment
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
